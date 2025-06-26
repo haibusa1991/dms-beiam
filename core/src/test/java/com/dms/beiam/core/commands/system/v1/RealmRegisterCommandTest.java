@@ -1,7 +1,8 @@
 package com.dms.beiam.core.commands.system.v1;
 
-import com.dms.beiam.apiadapter.commands.system.v1.realm.register.BeiamRealmRegisterInput;
-import com.dms.beiam.apiadapter.commands.system.v1.realm.register.BeiamRealmRegisterResult;
+import com.dms.beiam.core.commands.v1.system.realm.register.BeiamRealmRegisterInput;
+import com.dms.beiam.core.commands.v1.system.realm.register.BeiamRealmRegisterResult;
+import com.dms.beiam.core.commands.v1.system.realm.register.RealmRegisterCommand;
 import com.dms.beiam.persistence.entities.Realm;
 import com.dms.beiam.persistence.repositories.RealmRepository;
 import com.dms.beiam.restapi.errorhandler.exceptions.BusinessException;

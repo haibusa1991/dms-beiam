@@ -2,8 +2,8 @@ package com.dms.beiam.restapi.controllers;
 
 import com.dms.beiam.restapi.ResultHandler;
 import com.dms.beiam.restapi.adapters.RealmAdapter;
-import com.dms.beiam.restapi.operations.system.v1.realm.register.RealmRegisterInput;
-import com.dms.beiam.restapi.operations.system.v1.realm.register.RealmRegisterResult;
+import com.dms.beiam.restapi.operations.v1.system.realm.register.RealmRegisterInput;
+import com.dms.beiam.restapi.operations.v1.system.realm.register.RealmRegisterResult;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
