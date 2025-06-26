@@ -15,7 +15,6 @@
 
     <modules>
         <module>rest-api</module>
-        <module>api-adapter</module>
         <module>core</module>
         <module>persistence</module>
         <module>test-report</module>

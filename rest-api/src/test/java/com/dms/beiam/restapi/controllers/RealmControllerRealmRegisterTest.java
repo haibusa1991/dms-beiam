@@ -1,8 +1,8 @@
 package com.dms.beiam.restapi.controllers;
 
 import com.dms.beiam.restapi.base.BaseControllerTest;
-import com.dms.beiam.restapi.operations.system.v1.realm.register.RealmRegisterInput;
-import com.dms.beiam.restapi.operations.system.v1.realm.register.RealmRegisterResult;
+import com.dms.beiam.restapi.operations.v1.system.realm.register.RealmRegisterInput;
+import com.dms.beiam.restapi.operations.v1.system.realm.register.RealmRegisterResult;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.SneakyThrows;
 import org.junit.jupiter.api.Test;

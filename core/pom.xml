@@ -15,13 +15,13 @@
     <dependencies>
         <dependency>
             <groupId>com.dms.beiam</groupId>
-            <artifactId>api-adapter</artifactId>
+            <artifactId>persistence</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.dms.beiam</groupId>
-            <artifactId>persistence</artifactId>
+            <artifactId>rest-api</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
     </dependencies>
